@@ -3,7 +3,9 @@ This Python script uses the newspaper and nltk libraries to download and summari
 
 ### Requirements
 Python 3.6 or higher
+
 newspaper library
+
 nltk library
 
 ### Installation
