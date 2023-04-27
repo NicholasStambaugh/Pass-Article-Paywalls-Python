@@ -46,3 +46,10 @@ for article in newsletter_list:
 ```
 
 When you run the script, it will download the article, parse it, and use nltk to generate a summary of the article. It will then print out the title, URL, summary, set_summary, and text of the article.
+
+
+# Pythonic.py
+
+This is a pythonic version of the newsletter article summarizer script that uses the newspaper and nltk libraries. The script takes a list of newsletter article URLs, downloads and summarizes each article, and prints the title, URL, and summary of each article. 
+
+It uses list comprehension to iterate over the URLs and the with statement to ensure proper resource management. The code is more concise and readable than the previous version, using descriptive variable names and f-strings for string formatting.
